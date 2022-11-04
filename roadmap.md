@@ -29,12 +29,15 @@ prerequisite: windows-pc
     - set systemd
     - install
       - (for public cloud)
+        - terraform
         - az cli
         - powershell
           - az powershell
         - aws cli
         - gcloud sdk
       - docker
+      - docker-compose
+      - kubectl
       - python
         - jupyter-lab
           - bash
