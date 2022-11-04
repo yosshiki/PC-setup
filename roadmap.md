@@ -22,7 +22,7 @@ prerequisite: windows-pc
   - enable windows feature
   - install Ubuntu or CentOS
     - Ubuntu from Microsoft Store
-    - CentOS from code : 
+    - CentOS from code : https://roy-n-roy.nyan-co.page/Windows/WSL%EF%BC%86%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A/centos/
   - WSL2 setting
     - set auto-Logs
     - set history
