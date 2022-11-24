@@ -8,6 +8,8 @@ prerequisite: windows-pc
         2. powershell  
         3. WSL  
         4. python
+        1. jupyterlab
+        1. git for windows
     2. windows terminal : from microsoft store  
     3. 7zip (file compress / decompress) : https://sevenzip.osdn.jp/  
     4. WinAuth (Virtual MFA device) : https://winauth.github.io/winauth/download.html  
