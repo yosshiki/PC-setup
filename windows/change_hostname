@@ -1,0 +1,3 @@
+set NEWHOSTNAME='newname'
+wmic computersystem where name="%computername%" call rename name=%NEWHOSTNAME%
+shutdown -r
