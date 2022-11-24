@@ -9,7 +9,7 @@ prerequisite: windows-pc
         3. WSL  
         4. python
         1. jupyterlab
-        1. git for windows
+        1. git for windows (including git bash) https://git-scm.com/download/win
     2. windows terminal : from microsoft store  
     3. 7zip (file compress / decompress) : https://sevenzip.osdn.jp/  
     4. WinAuth (Virtual MFA device) : https://winauth.github.io/winauth/download.html  
