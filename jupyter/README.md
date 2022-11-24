@@ -17,6 +17,10 @@ https://zenn.dev/iriko/articles/2627a8f8c24cea
 powershell on jupyter  
 https://blog.darrenjrobinson.com/getting-started-with-local-powershell-jupyter-notebook/  
 https://github.com/vors/jupyter-powershell  
+via dotnet https://blog.beachside.dev/entry/2020/02/18/190000  
+
+powershell support info
+https://devblogs.microsoft.com/powershell/public-preview-of-powershell-support-in-jupyter-notebooks/  
 
 jupyter on vscode  
 https://atmarkit.itmedia.co.jp/ait/articles/2108/06/news030.html  
