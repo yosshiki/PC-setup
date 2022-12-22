@@ -29,6 +29,22 @@ prerequisite: windows-pc
         - set auto-Logs
         - set history
         - set systemd
+        - set prompt  ref. https://qiita.com/wildeagle/items/5da17e007e2c284dc5dd  
+        \e[XXm<colored>\e[0m  31m:red, 32m:green, 33m:yellow, 34m:blue, 36m:cyan 
+        ```
+        # for test
+        echo -e '\e[31m[\u\e[0m@\e[32m\h\e[0m\e[34m\w]\e[0m$ '   
+        ```  
+        ```
+        export PS1='\e[32m\u\e[0m@\h_WSL:\e[33m\w\e[0m \D{%Y%m%d-%H:%M:%S} \$ ' 
+        ```              
+        ```
+        # for root  
+        export PS1='\e[31m\u\e[0m@\h_WSL \e[36m\w\e[0m \D{%Y%m%d-%H:%M:%S} \$ ' 
+        ```
+        
+
+        
         - install
             - (for public cloud)
                 - terraform
