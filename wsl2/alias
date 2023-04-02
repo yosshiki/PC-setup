@@ -1,0 +1,29 @@
+# linux
+alias datehm='date +%Y%m%d%H%M'
+alias dated='date +Y%m%d'
+
+# wsl
+alias whome='echo "\\\wsl\$\\Ubuntu-22-04\\home\\$USER"'
+alias wdir='grep wdir ~/.bashrc'|grep ^#
+# wdir: echo "\\\wsl\$\\Ubuntu-22.04"$(pwd|sed 's/\//\\/g')
+
+# azcli
+alias azid='az ad signed-in-user show --query [userPrincipalName,id] -o tsv'
+alias azidu='az ad user show --id'
+alias azids='az ad sp show --id'
+alias azwho='az account show --query [name,id] -o tsv'
+alias azset='azset.sh'
+alias azlist='az account list --query [*].[name,id,isDefault] -o tsv|sort|cat -n'
+alias azrolelist='az role assginment list'
+alias akspower='az aks list --query [].[name,agentPoolProfiles[].[name,powerState.code]] -o table'
+
+# azure powershell
+alias PSazwho='pwsh -c "Get-AzContext"'
+alias PSazlist='pwsh -c "Get-AzSubscription"; echo "PSazset=Select-AzSubscription"'
+export PSROLELISTCMD="Get-AzRoleAssignment | Select-Object ObjectType, RoleDefinitionName, SignInName, DisplayName | Sort-Object -Property ObjectType, RoleDefinitionName"
+alias PSazrolelist='pwsh -c "(Get-AzContext).Name";echo "ObjectType, RoleDefinitionName, SignInName DisplayName"; pwsh -c "${PSROLELISTCMD} | Format-Table -HideTableHeaders |cat -b"'
+
+# k8s
+alias k='kubectl'
+alias kwho='kubectl config get-contexts'
+alias kset='~/k8sset.sh'
