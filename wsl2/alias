@@ -13,6 +13,7 @@ alias azidu='az ad user show --id'
 alias azids='az ad sp show --id'
 alias azwho='az account show --query [name,id] -o tsv'
 alias azset='azset.sh'
+# https://github.com/yosshiki/cloud/blob/main/azure/azset.sh
 alias azlist='az account list --query [*].[name,id,isDefault] -o tsv|sort|cat -n'
 alias azrolelist='az role assginment list'
 alias akspower='az aks list --query [].[name,agentPoolProfiles[].[name,powerState.code]] -o table'
