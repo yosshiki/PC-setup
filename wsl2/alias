@@ -28,3 +28,4 @@ alias PSazrolelist='pwsh -c "(Get-AzContext).Name";echo "ObjectType, RoleDefinit
 alias k='kubectl'
 alias kwho='kubectl config get-contexts'
 alias kset='~/k8sset.sh'
+https://github.com/yosshiki/cloud/blob/main/kubernetes/k8sset.sh
