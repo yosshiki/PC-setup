@@ -48,11 +48,14 @@ prerequisite: windows-pc
         - install
             - (for public cloud)
                 - terraform
+                    - tfenv
                 - az cli
                 - powershell
                     - az powershell
                 - aws cli
                 - gcloud sdk
+            - git
+                - https://codezine.jp/article/detail/17328?p=2
             - docker
             - docker-compose
             - kubectl
