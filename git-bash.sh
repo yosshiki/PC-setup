@@ -13,3 +13,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 cd
 clip < .ssh/id_ed25519
 
+# paste and set key in GUI(Setting > Access > SSH key)
+
+ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe
