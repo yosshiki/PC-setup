@@ -7,3 +7,9 @@ git config -l
 git config --local user.name "username"
 git config --local user.email "tom@example.com"
 
+# create SSH key in Windows Git Bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+cd
+clip < .ssh/id_ed25519
+
